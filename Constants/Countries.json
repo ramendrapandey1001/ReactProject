@@ -1,0 +1,268 @@
+[
+  {
+    "name": "Afghanistan",
+    "population": 27657145,
+    "region": "Asia",
+    "capital": "Kabul",
+    "flag": "https://flagcdn.com/w320/af.png"
+  },
+  {
+    "name": "Åland Islands",
+    "population": 28875,
+    "region": "Europe",
+    "capital": "Mariehamn",
+    "flag": "https://flagcdn.com/w320/ax.png"
+  },
+  {
+    "name": "Albania",
+    "population": 2886026,
+    "region": "Europe",
+    "capital": "Tirana",
+    "flag": "https://flagcdn.com/w320/al.png"
+  },
+  {
+    "name": "Algeria",
+    "population": 40400000,
+    "region": "Africa",
+    "capital": "Algiers",
+    "flag": "https://flagcdn.com/w320/dz.png"
+  },
+  {
+    "name": "American Samoa",
+    "population": 57100,
+    "region": "Oceania",
+    "capital": "Pago Pago",
+    "flag": "https://flagcdn.com/w320/as.png"
+  },
+  {
+    "name": "Andorra",
+    "population": 78014,
+    "region": "Europe",
+    "capital": "Andorra la Vella",
+    "flag": "https://flagcdn.com/w320/ad.png"
+  },
+  {
+    "name": "Angola",
+    "population": 25868000,
+    "region": "Africa",
+    "capital": "Luanda",
+    "flag": "https://flagcdn.com/w320/ao.png"
+  },
+  {
+    "name": "Anguilla",
+    "population": 13452,
+    "region": "Americas",
+    "capital": "The Valley",
+    "flag": "https://flagcdn.com/w320/ai.png"
+  },
+  {
+    "name": "Antarctica",
+    "population": 1000,
+    "region": "Polar",
+    "capital": "No Capital",
+    "flag": "https://flagcdn.com/w320/aq.png"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "population": 86295,
+    "region": "Americas",
+    "capital": "Saint John's",
+    "flag": "https://flagcdn.com/w320/ag.png"
+  },
+  {
+    "name": "Argentina",
+    "population": 43590400,
+    "region": "Americas",
+    "capital": "Buenos Aires",
+    "flag": "https://flagcdn.com/w320/ar.png"
+  },
+  {
+    "name": "Armenia",
+    "population": 2994400,
+    "region": "Asia",
+    "capital": "Yerevan",
+    "flag": "https://flagcdn.com/w320/am.png"
+  },
+  {
+    "name": "Aruba",
+    "population": 107394,
+    "region": "Americas",
+    "capital": "Oranjestad",
+    "flag": "https://flagcdn.com/w320/aw.png"
+  },
+  {
+    "name": "Australia",
+    "population": 24117360,
+    "region": "Oceania",
+    "capital": "Canberra",
+    "flag": "https://flagcdn.com/w320/au.png"
+  },
+  {
+    "name": "Austria",
+    "population": 8725931,
+    "region": "Europe",
+    "capital": "Vienna",
+    "flag": "https://flagcdn.com/w320/at.png"
+  },
+  {
+    "name": "Azerbaijan",
+    "population": 9730500,
+    "region": "Asia",
+    "capital": "Baku",
+    "flag": "https://flagcdn.com/w320/az.png"
+  },
+  {
+    "name": "Bahamas",
+    "population": 378040,
+    "region": "Americas",
+    "capital": "Nassau",
+    "flag": "https://flagcdn.com/w320/bs.png"
+  },
+  {
+    "name": "Bahrain",
+    "population": 1404900,
+    "region": "Asia",
+    "capital": "Manama",
+    "flag": "https://flagcdn.com/w320/bh.png"
+  },
+  {
+    "name": "Bangladesh",
+    "population": 161006790,
+    "region": "Asia",
+    "capital": "Dhaka",
+    "flag": "https://flagcdn.com/w320/bd.png"
+  },
+  {
+    "name": "Barbados",
+    "population": 285000,
+    "region": "Americas",
+    "capital": "Bridgetown",
+    "flag": "https://flagcdn.com/w320/bb.png"
+  },
+  {
+    "name": "Belarus",
+    "population": 9498700,
+    "region": "Europe",
+    "capital": "Minsk",
+    "flag": "https://flagcdn.com/w320/by.png"
+  },
+  {
+    "name": "Belgium",
+    "population": 11319511,
+    "region": "Europe",
+    "capital": "Brussels",
+    "flag": "https://flagcdn.com/w320/be.png"
+  },
+  {
+    "name": "Belize",
+    "population": 370300,
+    "region": "Americas",
+    "capital": "Belmopan",
+    "flag": "https://flagcdn.com/w320/bz.png"
+  },
+  {
+    "name": "Benin",
+    "population": 10653654,
+    "region": "Africa",
+    "capital": "Porto-Novo",
+    "flag": "https://flagcdn.com/w320/bj.png"
+  },
+  {
+    "name": "Bermuda",
+    "population": 61954,
+    "region": "Americas",
+    "capital": "Hamilton",
+    "flag": "https://flagcdn.com/w320/bm.png"
+  },
+  {
+    "name": "Bhutan",
+    "population": 775620,
+    "region": "Asia",
+    "capital": "Thimphu",
+    "flag": "https://flagcdn.com/w320/bt.png"
+  },
+  {
+    "name": "Bolivia",
+    "population": 10985059,
+    "region": "Americas",
+    "capital": "Sucre",
+    "flag": "https://flagcdn.com/w320/bo.png"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "population": 3531159,
+    "region": "Europe",
+    "capital": "Sarajevo",
+    "flag": "https://flagcdn.com/w320/ba.png"
+  },
+  {
+    "name": "Botswana",
+    "population": 2141206,
+    "region": "Africa",
+    "capital": "Gaborone",
+    "flag": "https://flagcdn.com/w320/bw.png"
+  },
+  {
+    "name": "Brazil",
+    "population": 206135893,
+    "region": "Americas",
+    "capital": "Brasília",
+    "flag": "https://flagcdn.com/w320/br.png"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "population": 3000,
+    "region": "Africa",
+    "capital": "Diego Garcia",
+    "flag": "https://flagcdn.com/w320/io.png"
+  },
+  {
+    "name": "Brunei Darussalam",
+    "population": 411900,
+    "region": "Asia",
+    "capital": "Bandar Seri Begawan",
+    "flag": "https://flagcdn.com/w320/bn.png"
+  },
+  {
+    "name": "Bulgaria",
+    "population": 7153784,
+    "region": "Europe",
+    "capital": "Sofia",
+    "flag": "https://flagcdn.com/w320/bg.png"
+  },
+  {
+    "name": "Burkina Faso",
+    "population": 19034397,
+    "region": "Africa",
+    "capital": "Ouagadougou",
+    "flag": "https://flagcdn.com/w320/bf.png"
+  },
+  {
+    "name": "Burundi",
+    "population": 10114505,
+    "region": "Africa",
+    "capital": "Bujumbura",
+    "flag": "https://flagcdn.com/w320/bi.png"
+  },
+  {
+    "name": "Cambodia",
+    "population": 15626444,
+    "region": "Asia",
+    "capital": "Phnom Penh",
+    "flag": "https://flagcdn.com/w320/kh.png"
+  },
+  {
+    "name": "Cameroon",
+    "population": 22709892,
+    "region": "Africa",
+    "capital": "Yaoundé",
+    "flag": "https://flagcdn.com/w320/cm.png"
+  },
+  {
+    "name": "Canada",
+    "population": 36155487,
+    "region": "Americas",
+    "capital": "Ottawa",
+    "flag": "https://flagcdn.com/w320/ca.png"
+  }
+]
