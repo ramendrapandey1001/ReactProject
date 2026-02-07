@@ -9,6 +9,8 @@ const FlagComponent = () => {
   const [countries, setCountries] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredCountries, setFilteredCountries] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 12;
 
   useEffect(() => {
     setCountries(countriesData);
@@ -21,6 +23,19 @@ const handleSearch = () => {
       country.name.toLowerCase().includes(term)
     );
     setFilteredCountries(results);
+    setCurrentPage(1);
+  };
+
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentCountries = filteredCountries.slice(
+    indexOfFirstItem,
+    indexOfLastItem
+  );
+  const totalPages = Math.ceil(filteredCountries.length / itemsPerPage);
+
+  const handlePageChange = (newPage) => {
+    setCurrentPage(newPage);
   };
 
 	return (
@@ -40,8 +55,8 @@ const handleSearch = () => {
       </div>
 
 <div className="country-grid">
-        {filteredCountries.length > 0 ? (
-          filteredCountries.map((country, index) => (
+        {currentCountries.length > 0 ? (
+          currentCountries.map((country, index) => (
             <div key={country.name} className="country-card">
               <img src={country.flag} alt={`${country.name} flag`} />
               <div className={`country-text-${index === 4 ? "T" : ""}`}>
@@ -56,6 +71,36 @@ const handleSearch = () => {
           <p>No country found!</p>
         )}
       </div>
+
+      {filteredCountries.length > 0 && (
+        <div
+          className="pagination"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "10px",
+            marginTop: "20px",
+            paddingBottom: "20px",
+          }}
+        >
+          <button
+            onClick={() => handlePageChange(currentPage - 1)}
+            disabled={currentPage === 1}
+          >
+            Previous
+          </button>
+          <span>
+            Page {currentPage} of {totalPages}
+          </span>
+          <button
+            onClick={() => handlePageChange(currentPage + 1)}
+            disabled={currentPage === totalPages}
+          >
+            Next
+          </button>
+        </div>
+      )}
     </div>
   );
 };
