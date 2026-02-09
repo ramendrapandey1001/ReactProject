@@ -7,10 +7,31 @@ const ValintineComponent = () => {
   const [noPosition, setNoPosition] = useState(null); // null means inline at start
 
   const moveNoButton = () => {
-    const top = Math.floor(Math.random() * 70) + 20 + "%";
-    const left = Math.floor(Math.random() * 70) + 15 + "%";
-    setNoPosition({ top, left });
-  };
+  const minDistance = 400; // pixels minimum movement
+  let newTop, newLeft;
+
+  do {
+    newTop = Math.floor(Math.random() * 70) + 20 + "%";
+    newLeft = Math.floor(Math.random() * 70) + 15 + "%";
+
+    // Convert % to pixels relative to viewport
+    const topPx = (parseInt(newTop) / 100) * window.innerHeight;
+    const leftPx = (parseInt(newLeft) / 100) * window.innerWidth;
+
+    const currentTopPx = noPosition ? (parseInt(noPosition.top) / 100) * window.innerHeight : 0;
+    const currentLeftPx = noPosition ? (parseInt(noPosition.left) / 100) * window.innerWidth : 0;
+
+    const distance = Math.sqrt(
+      Math.pow(topPx - currentTopPx, 2) + Math.pow(leftPx - currentLeftPx, 2)
+    );
+
+    // Repeat until distance is significant
+    if (distance > minDistance) break;
+  } while (true);
+
+  setNoPosition({ top: newTop, left: newLeft });
+};
+
 
   return (
     <div className="page-background">
@@ -35,7 +56,11 @@ const ValintineComponent = () => {
                 className="no-btn"
                 style={noPosition ? { position: "absolute", ...noPosition } : {}}
                 onMouseEnter={moveNoButton}
-				onTouchStart={moveNoButton}
+				 onTouchStart={(e) => {
+					e.preventDefault();
+					e.stopPropagation();
+					moveNoButton();
+				}}
 				onClick={(e) => {
 					e.preventDefault();         // stop click action
 					e.stopPropagation();        // prevent bubbling
