@@ -35,6 +35,12 @@ const ValintineComponent = () => {
                 className="no-btn"
                 style={noPosition ? { position: "absolute", ...noPosition } : {}}
                 onMouseEnter={moveNoButton}
+				onTouchStart={moveNoButton}
+				onClick={(e) => {
+					e.preventDefault();         // stop click action
+					e.stopPropagation();        // prevent bubbling
+					moveNoButton();             // move instead of "click"
+				}}
               >
                 No
               </button>
